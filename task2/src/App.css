@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #999999;
+  padding: 15px;
+  margin-bottom:10px;
+  }
+  
+  .navitems button {
+    float:right;
+    margin-top:20px;
+    padding:10px;
+    width: 150px;
+    background-color: #000000;
+    font-family: serif;
+    font-size: 20px;
+    color: white;
+    font-weight:bolder;
+    border:1px solid #0f0e0e;
+    border-radius:30px;
+  }
+  
+  .main {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+  }
+  .avatar {
+    border-radius: 20%;
+  }
+  
+  .profile_cont {
+
+    border-radius:20%;
+    background-image: linear-gradient(rgb(233, 240, 255), rgb(233, 240, 255));
+    margin: 15px;
+    padding:15px;
+    text-align: center;
+    width: 300px;
+    transition: transform .1s; 
+  }
+  
+  .profile_cont:hover {
+    transform: scale(1.10);
+  }
+  
